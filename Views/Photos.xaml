@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="App02.Views.Photos">
+	<StackLayout>
+        <Button x:Name="TakePictureButton" Clicked="TakePictureButton_Click"
+            Text="Take from camera"></Button>
+        <Button x:Name="UploadPictureButton" Clicked="UploadPictureButton_Click"
+            Text="Pick a photo"></Button>
+        <Image x:Name="Image1" HeightRequest="240"></Image>
+    </StackLayout>
+</ContentPage>
